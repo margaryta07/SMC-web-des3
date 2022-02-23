@@ -1,0 +1,190 @@
+body {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 1000px;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+h1 {
+  position: top;
+  top: 43vh;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid3x3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grid3x3 picture {
+  width: 30%;
+  padding-bottom: 0.2%;
+  margin-bottom: 2%;
+  align-self: center;
+}
+.grid3x3 picture img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.grid3x3 picture img:hover {
+  filter: grayscale(0%);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="email"],
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 50vh;
+  margin-bottom: 150px;
+}
+form {
+  max-width: 70vh;
+}
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+  h1 {
+    display: none;
+  }
+  h2{
+      font-size: 30px;
+  }
+  .box p {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+  .box {
+    flex-direction: column-reverse;
+  }
+  .box img {
+    width: 200px;
+    margin: 0 30px;
+  }
+  .grid3x3 picture {
+    width: 45%;
+  }
+
+  .grid3x3 {
+    margin-top: 50px;
+  }
+  .container {
+    height: 900px;
+  }
+  .form_container {
+    margin-top: 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  h1 {
+    display: none;
+  }
+  .box {
+    flex-direction: row;
+  }
+  .box p {
+    max-width: 700px;
+    font-size: 18px;
+    margin: 0 20px;
+  }
+  .box img {
+    width: 200px;
+    padding: 0 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #logo {
+    width: 700px;
+    top: 20px;
+  }
+  h1 {
+    display: block;
+    font-size: 110px;
+    font-weight: 100;
+    top: 370px;
+  }
+  .box p {
+    max-width: 600px;
+    font-size: 24px;
+  }
+  .box img {
+    width: 300px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .box p {
+    max-width: 800px;
+    font-size: 24px;
+  }
+  .box img {
+    width: 300px;
+  }
+}
+
+/*JS*/
+
+article p:nth-child(2) {
+  display: none;
+}
+#continue {
+  font-style: italic;
+  cursor: pointer;
+  color: #a9a9a9;
+}
