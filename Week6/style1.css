@@ -1,0 +1,67 @@
+
+body {background-color: black;}
+:root {
+    --primary: #cc8500 !important;
+    --secondary: #000000 !important;
+    --light:  #cc8500 !important; golden
+    --dark: #cc8500 !important;
+    --black: #000000!important; nav
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn-light {
+    background-color: var(--light) !important;
+    border: 0;
+}
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--dark) !important;
+}
+
+.nav-link {
+    color: var(--black) !important;
+    font-family: 'Helvetica';
+}
+
+
+
+
+
+h1 { color: #cc8500;
+    font-family: 'Trebuchet', bold, serif;
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Trebuchet', serif;
+}
+.card-text {font-family: 'Trebuchet', serif;
+
+}
+h2 { color: #cc8500;
+    font-family: 'Helvetica', cursive;
+   text-align: left;
+    margin-left: 100px;
+}
+
+
+h3 { color: black;
+    font-family: 'Trebuchet', serif;
+    font-size: 1.5rem !important;
+    margin-left: 20px;
+}
+    h4 { color: gray;
+    font-family: 'Trebuchet', serif;
+    font-size: 1.5rem !important;}
+
+
