@@ -1,0 +1,77 @@
+
+body {background-color: white;}
+:root {
+    --primary: #cc8500 !important; golden
+    --secondary: #000000 !important;
+    --light:  #ffffff !important; golden
+    --dark: #cc8500 !important;
+    --black: #ffffff!important; nav
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.btn-light {
+    background-color: var(--light) !important;
+    border: 0;
+}
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--dark) !important;
+}
+
+.nav-link { 
+    color: var(--black) !important;
+    font-family: 'Trebuchet', sans-serif;
+    
+}
+
+
+h1 { color: #cc8500;
+    font-size: 30px;
+    font-family: 'Trebuchet', fantasy, serif;
+    text-align: left;
+    margin-left: 90px;
+}
+h6{
+    font-family: 'Helvetica', serif;
+    text-align: left;
+}
+.card-title {
+    font-family: 'Helvetica', serif;
+}
+.card-text {font-family: 'Helvetica', serif;
+
+}
+h2 { color: goldenrod;
+    font-family: 'Helvetica', serif;
+   text-align: left;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+h4 { color: goldenrod;
+    font-family: 'Helvetica', serif;
+   text-align: left;
+    font-size: 35px;
+    
+}
+
+h3 { color: #cc8500;
+    font-family: 'Helvetica', bold, sans-serif;
+    font-size: 50px;
+    margin-top: 40px;
+}
+    h5 { color: black;
+    font-family: 'Helvetica', serif;
+    font-size: 16px;}
+
+
