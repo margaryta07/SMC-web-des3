@@ -1,4 +1,5 @@
 
+
 body {background-color: white;}
 :root {
     --primary: #cc8500 !important; golden
@@ -43,8 +44,8 @@ body {background-color: white;}
 }
 
 h1 { color: #cc8500;
-    font-size: 30px;
-    font-family: 'Helvetica', serif;
+    font-size: 50px;
+    font-family: 'Helvetica', bold;
     text-align: center;
     margin-left: 0px;
 }
@@ -60,10 +61,11 @@ h6{
 .card-text {font-family: 'Helvetica', serif;
 
 }
-h2 { color: white;
-    font-family: 'Trebuchet', serif;
-   text-align: left;
-    margin-left: 100px;
+h2 { color: #cc8500;
+    font-family: 'Trebuchet', fantasy, serif;
+   text-align: center;
+   margin-top: 25px;
+   margin-bottom: 20px;
     font-size: 35px;
 }
 
