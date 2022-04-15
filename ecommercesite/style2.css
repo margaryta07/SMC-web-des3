@@ -1,7 +1,7 @@
 
 body {background-color: white;}
 :root {
-    --primary: #cc8500 !important; golden
+    --primary: goldenrod !important; golden
     --secondary: #000000 !important;
     --light:  #ffffff !important; golden
     --dark: #cc8500 !important;
@@ -37,7 +37,7 @@ body {background-color: white;}
 
 h1 { color: #cc8500;
     font-size: 30px;
-    font-family: 'Trebuchet', fantasy, serif;
+    font-family: 'Trebuchet', fantasy, serif, bold;
     text-align: left;
     margin-left: 90px;
 }
@@ -54,9 +54,8 @@ h6{
 
 }
 h2 { color: white;
-    font-family: 'Trebuchet', serif;
-   text-align: left;
-    margin-left: 100px;
+    font-family: 'Trebuchet', fantasy, serif;
+   text-align: center;
     font-size: 35px;
 }
 
@@ -76,6 +75,10 @@ h3 { color: #cc8500;
     h5 { color: goldenrod;
     font-family: 'Helvetica', serif;
     font-size: 1.5rem !important;}
+
+
+
+
 
 
 
