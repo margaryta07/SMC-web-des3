@@ -1,0 +1,51 @@
+
+
+.navbar-brand img{
+    height: 45px;
+
+}
+.nav-item {
+    padding: 20px 29px;
+}
+
+.album img {
+    width: 70%;
+    transition: -webkit-filter 2s, transform 2s;
+}
+
+.icon {
+    height: 50px !important;
+    align-content: center;
+}
+
+.album img:hover {
+    -webkit-filter: hue-rotate(360deg); filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+.bg-grad {
+    background-image: linear-gradient(90deg, cyan, orange)
+        
+}
+.h5 {color: cyan !important;
+    font: bold;
+
+}
+
+.nav-link {
+    color: orange !important;
+    text-shadow: 1px 1px 1px rgb(97, 97, 97);
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: text-shadow .5s, color .5s, font-size .5s !important;
+    width: 100px;
+    text-align: center;
+
+}
+
+.nav-link:hover {
+    color: cyan !important;
+    text-shadow: 4px 4px 4px #000;
+    font-size: 1.4rem;
+}
