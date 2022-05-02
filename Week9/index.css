@@ -10,6 +10,7 @@
 
 .album img {
     width: 70%;
+    height: 70%;
     transition: -webkit-filter 2s, transform 2s;
 }
 
