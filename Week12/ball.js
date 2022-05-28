@@ -14,14 +14,14 @@ let clickCounter;
 
 
 function setup (){
-    let myCanvas = createCanvas(600, 600);
+    let myCanvas = createCanvas(1100, 600);
     myCanvas.parent('canvasParent');
 
     colorMode(HSB, 360, 100, 100);
 
     sliderHue = createSlider(0, 360, 50, 1);
     sliderHue.parent('canvasUI');
-    sliderHue.style('width', '600px');
+    sliderHue.style('width', '1100px');
 
     posX = width/2;
     posY = height/2;
@@ -30,19 +30,19 @@ function setup (){
     velY = 1.8;
 
     radius = 300;
-    circleClr = color(51, 91, 99);
+    circleClr = color(75, 120, 38);
 
     clickCounter = 0;
 
 }
 
 function draw (){
-    background(175, 15, 90);
-    fill (255, 0, 100);
+    background(190, 195, 95);
+    fill (0, 87, 183);
     strokeWeight (2);
     rect (5, 5, 70, 30, 20);
 
-    textSize(24);
+    textSize(21);
     textAlign(CENTER);
     fill(1, 1, 0);
     text(clickCounter, 40, 29);
