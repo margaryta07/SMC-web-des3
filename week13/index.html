@@ -4,72 +4,228 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Required meta tags END -->
 
-    <link href="style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link href="main.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet">
+    <link href="mouse.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="scroll.js"></script>
+    <!-- IBM PLEX SANS STYLE SHEET START -->
+    <link rel="stylesheet" href="https://use.typekit.net/ksl3xpz.css">
+    <!-- IBM PLEX SANS STYLE SHEET END -->
+<!-- W3 STYLE SHEET START -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 STYLE SHEET END -->
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+
     <title>GreenSweep</title>
-  
+    <style>
+        .block {
+          height:100vh;
+        }
+        .imgblock {
+            height:250px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- NAV LINKS START -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+              <div class="container-fluid">
+                <a class="navbar-brand justify-content-end" href="index.html">GreenSweep</a>
       
-      <!-- Custom styles for this template -->
-    </head>
-    <body class="text-white bg-dark">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
       
-<header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand justify-content-end" href="index.html">GreenSweep</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacts.html">CONTACTS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </header>
+            <!-- NAV LINKS END -->
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    
+    <main class="">
+        <!-- LANDING / HOME PAGE  -->
+        <div class="row position-relative text-center overflow-hidden" id="tag2home">
+            <div class="col-12 bg-primary block">
+                
+            </div>
 
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar nav">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.ymc.ch/">Inspiration 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://theshift.tokyo/en/project/">I 2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://shildan.ouiwill.com/">I 3</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sketch.html">SKETCHES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT US</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">FEATURED PROJECTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">GET IN TOUCH</a>
-              </li>
-            </ul>
-          </div>
+            
+            <div class="col-12">
+                <a href="">
+                    <img src="logo_white.png" class="fixed-top logo" alt="logo">
+                </a>
+            </div>
+            <div class="video-background">
+              <div class="video-wrap content">
+                <div id="video">
+                  <video id="bgvid" autoplay loop muted playsinline>
+                    <source src=".mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 h3-lg-5 mx-auto my-5" style="position: absolute">
+              
+                <h1 class="display-1 fw-normal pale">GreenSweep</h1>
+                <h3 class="lead fw-normal text-white sub-text">Full-service landscaping firm specializing in grounds care, landscape enhancements, and design/build.</h3>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+
+                <div class="mouse_scroll">
+
+                  <!-- <div class="mouse">
+                    <div class="wheel"></div>
+                  </div> -->
+                  <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                  </div>
+              </div>
+                
+                
+            </div>
         </div>
-      </nav>
-</header>
+        <!-- END OF LANDING / HOME PAGE  -->
 
-  
-    <main>
-        <container class="d-block cover mx-auto w-100 text-center position-fixed top-50 start-50 translate-middle">
-            <div class="">
-            <h1 class="display-1">GreenSweep</h1>
-            <p class="lead">engineering for the future</p>
-            <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary fw-bold border-white ">our projects</a>
-            </p></div>
-        </container>
+        <!-- SELLING POINT 1 'ALL YOUR FAVORITES'  -->
+        <div class="row position-relative text-center overflow-hidden w3-animate-opacity" id="about">
+            <div class="col-12 bg-danger block ">
+                
+            </div>
+            <div class="col-md-12 h3-lg-5 mx-auto my-5" style="position: absolute">
+                <h1 class="display-1 fw-normal green">About US</h1>
+                <h3 class="lead fw-normal text-white mt-4 mx-5">__</h3>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+                
+              </div>
+        </div>
+        <!-- END OF SELLING POINT 1 'ALL YOUR FAVORITES'  -->
+      <!-- SELLING POINT 2 'NO PREPWORK'  -->
+      <div class="row position-relative text-center overflow-hidden w3-animate-opacity" id="tag2point2">
+          <div class="col-12 bg-light block pack content">
+              
+
+          </div>
+          <div class="video-background-delivery">
+            <div class="video-wrap content">
+              <div id="video">
+                <video id="bgvid" autoplay loop muted playsinline>
+                  <source src="pictures/food_delivery video.mp4" type="video/mp4"
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 h3-lg-5 mx-auto my-5" style="position: absolute">
+              <h1 class="display-1 yellow fw-normal">Projects</h1>
+              <h3 class="lead fw-normal text-white mt-4">___</h3>
+              <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+              
+          </div>
+      </div>
+      <!-- END OF SELLING POINT 2 'NO PREPWORK'  -->
         
+      <!-- SELLING POINT 3 'SIMPLE'  -->
+        <div class="row position-relative text-center overflow-hidden w3-animate-opacity" id="tag2point3">
+            <div class="col-12 bg-info block content">
+                
+            </div>
+            <div class="col-md-6 h3-lg-5 mx-auto my-5 who" style="position: absolute">
+
+                <h1 class="display-1 fw-normal pale">__</h1>
+
+                <h3 class="lead fw-normal text-white mx-5">____________________</h3>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+              </div>
+        </div>
+        <!-- END OF SELLING POINT 3 'SIMPLE'  -->
+
+        
+
+        <!-- ABOUT PAGE  -->
+        <div class="row position-relative text-center overflow-hidden w3-animate-opacity" id="tag2about">
+            <div class="col-12 bg-primary tomato content block">
+                
+            </div>
+            <!-- <div class="video-background-food">
+              <div class="video-wrap">
+                <div id="video">
+                  <video id="bgvid" autoplay loop muted playsinline>
+                    <source src=".mp4" type="video/mp4"
+                  </video>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-md-6 h3-lg-5 mx-auto my-5 who" style="position: absolute">
+                <h1 class="display-1 fw-normal green">TEAM</h1>
+                <h3 class="lead fw-normal text-white mx-5"></h3>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+                 -->
+              </div>
+        </div>
+        <!-- END OF ABOUT  -->
+
+        <!-- TEAM PAGE 'WHO WE ARE'  -->
+        <div class="row position-relative text-center overflow-hidden" id="tag2team">
+            <div class="col-12 bg-light block">
+                
+                
+            </div>
+            
+            <div class="product-device shadow-sm d-md-block mencooking w3-animate-opacity"></div>
+            <div class="product-device product-device-2 shadow-sm d-md-block oldman w3-animate-opacity"></div>
+            <div class="col-md-6 h3-lg-5 mx-auto my-5 who" style="position: absolute">
+                <h1 class="display-1 fw-normal burn">CONTACTS</h1>
+                <h3 class="lead fw-normal .text-dark text-shadow mx-5"></h3>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+                
+              </div>
+        </div>
+        <!-- END OF TEAM PAGE 'Who WE ARE'  -->
+
+        
+
+      
     </main>
+   
+    <footer>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://www.netflix.com" class="nav-link px-2">Inspo 1</a></li>
+            <li class="nav-item"><a href="https://bandaagency.com" class="nav-link px-2">Inspo 2</a></li>
+            <li class="nav-item"><a href="https://mahno.com.ua/en/" class="nav-link px-2">Inspo 3</a></li>
+            <li class="nav-item"><a href="" class="nav-link px-2">Sketch</a></li>
+            <li class="nav-item"><a href="#tag2home" class="nav-link px-2">Home</a></li>
+          </ul>
+          <p class="text-center text-muted">GreenSweep</p>
+        </footer>
+      </div>
+    </footer>
 
-
-
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+   
   </body>
 </html>
