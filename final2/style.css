@@ -7,17 +7,7 @@
   justify-content: center;
   overflow: hidden;
 }
-.video-background h1 {
-text-align: center;
-font-size: 6rem;
-font-family: 'Amatic SC', cursive;
-background: darkgreen;
-padding: 20px;
-margin: 15px;
-z-index: 1;
-color: white;
 
-}
   
  nav {
     display: inline-block;
@@ -47,31 +37,34 @@ h2 {
 }
 h3 {
     font-size: 2.5rem;
+
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     
 }
 
 .bluebg {
-    background-color: lightgreen;
+    background-color: seashell;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Rajdhani', cursive;
     color: RGB(33, 29, 30);
 }
 
 p {
     /* text-align: center; */
-    font-family: 'Andika', sans-serif;
+    font-family: 'Trirong', sans-serif;
     color: RGB(33, 29, 30);
     font-size: 1rem;
 }
 
 footer {
     padding: 50px;
+    color: white;
+    background-color: rgb(143,188,143);
 }
 
 .rowMargin {
@@ -80,62 +73,39 @@ footer {
 }
 
 .bg-light {
-    background-color: RGB(255, 255, 255) !important;
+    background-color: white!important;
 }
 
 .bg-warning {
     /* min-height: 30px; */
-    background-color: RGB(247, 175, 170)!important;
+    background-color: white!important;
 }
 
 .bg-info {
     height: 100%;
 
-    background-color: RGB(245, 245, 253)!important;
+    background-color: white!important;
 }
 
 .col-4 {
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 } 
+.btn-primary {
+    background-color: darkseagreen;
+    border-color: darkseagreen;
 
-.btn-secondary {
-    background-color: RGB(247, 175, 170)!important;
-    color: rgb(0,0,0);
-    border-color: RGB(247, 175, 170);
+}
+.btn-primary:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-color: #4CAF50;
 }
 
 /* jumbo */
 
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-}
-
-.product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
-}
-
-.product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-}
 
 .shortTop {
     min-height: 300px;
@@ -157,6 +127,7 @@ footer {
 .card {
     background-color: transparent !important;
     border: none;
+    margin: 25px;
 }
 
 .carousel-item {
